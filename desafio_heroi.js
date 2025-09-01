@@ -23,7 +23,7 @@
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
  let namePlayer = "Newbie"
- let experiencePlayer = 10001
+ let experiencePlayer = 1000
 
 if (experiencePlayer <= 1000) {
     console.log("O Heroi " + namePlayer + " está no nivel: Ferro")
@@ -49,3 +49,36 @@ if (experiencePlayer <= 1000) {
     else {
     console.log("O Heroi " + namePlayer + " está no nivel: Radiante")
     }
+
+switch  (experiencePlayer) {
+    case experiencePlayer <= 1000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Ferro");
+    break;
+
+    case experiencePlayer <= 2000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Bronze");
+    break;
+
+    case experiencePlayer <= 5000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Prata");
+    break;
+
+    case experiencePlayer <= 7000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Ouro");
+    break;
+
+    case experiencePlayer <= 8000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Platina");
+    break;
+
+    case experiencePlayer <= 9000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Ascendente");
+    break;
+
+    case experiencePlayer <= 10000:
+    console.log("O Heroi " + namePlayer + " está no nivel: Imortal");
+    break;
+
+    case experiencePlayer >= 10001:
+    console.log("O Heroi " + namePlayer + " está no nivel: Radiante");
+}
