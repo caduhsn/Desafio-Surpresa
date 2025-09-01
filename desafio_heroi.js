@@ -23,7 +23,7 @@
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
  let namePlayer = "Newbie"
- let experiencePlayer = 0001
+ let experiencePlayer = 1000
 
 if (experiencePlayer <= 1000) {
     console.log("O Heroi " + namePlayer + " está no nivel: Ferro")
